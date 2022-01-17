@@ -2,7 +2,7 @@ require("dotenv").config();
 const mongoose = require("mongoose");
 const connectDB = async () => {
   try {
-    await mongoose.connect("mongodb+srv://sindhu:sindhu1234@cluster0.oelys.mongodb.net/medicine?retryWrites=true&w=majority", {
+    await mongoose.connect("Your Mango DB URL", {
       useNewUrlParser: true,
       useUnifiedTopology: true,
     });
